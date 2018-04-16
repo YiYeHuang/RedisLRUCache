@@ -24,6 +24,12 @@ Insert test data
 ```
 POST http://<host>:8080/redisrest/insert/{key}/{value}
 ```
+### Diagram
+---
+
+![Example Diagram](https://yuml.me/14bede2a.png)
+
+---
 
 ### Compile and Building
 
