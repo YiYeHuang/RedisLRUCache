@@ -1,0 +1,14 @@
+version: '2'
+services:
+    redis:
+        image: redis
+        ports:
+            - "6379:6379"
+    redisservice:
+        image: tonyhuang0446/redislru
+        depends_on: 
+            - "redis"
+        ports:
+            - "8080:8080"
+        links:
+            - "redis"
