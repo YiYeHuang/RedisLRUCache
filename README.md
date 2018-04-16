@@ -18,11 +18,11 @@ Up coming
 
 Access
 ```
-http://<host>:8080/redisrest/search/{key}
+GET http://<host>:8080/redisrest/search/{key}
 ```
 Insert test data
 ```
-http://<host>:8080/redisrest/insert/{key}/{value}
+POST http://<host>:8080/redisrest/insert/{key}/{value}
 ```
 
 ### Compile and Building
