@@ -24,3 +24,8 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+*.class
+*.lst
+*.jar
+*.original
+*.properties
