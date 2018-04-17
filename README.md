@@ -33,18 +33,17 @@ POST http://<host>:8080/redisrest/insert/{key}/{value}
 
 ### Compile and Building
 
-MVN
+MVN to build local .jar file
 ```
 ./mvn clean package
 ```
-Docker: move the built jar file to docker-deploy folder
-
+Docker image build
 ```
 docker build --tag <name> .
 ```
 
 ### Deploy
-local image run
+local application only run
 ```
 docker run -p 8080:8080 -d <image name>
 ```
